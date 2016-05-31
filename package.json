@@ -7,6 +7,7 @@
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-sequence": "^0.4.5",
+    "gulp-watch": "^4.3.6",
     "lg-server": "^1.1.1",
     "require-dir": "^0.3.0",
     "vue": "^1.0.24",

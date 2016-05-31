@@ -6,7 +6,6 @@
  */
 var gulp = require('gulp');
 var webpack = require('webpack');
-var path = require('path');
 var webpackConfig = require('../../webpack.config.js');
 gulp.task('webpack', function (callback) {
 var myConfig = Object.create(webpackConfig);
