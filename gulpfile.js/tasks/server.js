@@ -5,7 +5,7 @@
  * @Date:      2016-05-31 18:30:57
  */
 var gulp     = require('gulp');
-gulp.task('server', function () {
+gulp.task('server', ['build'], function () {
     var app = require('lg-server');
     var static_dir = './dist/';
     app.createServer(static_dir);
